@@ -28,5 +28,6 @@ var $plugins =
 {"name":"SRD_SuperToolsEngine","status":true,"description":"The heart of all maker-style plugins; it adds a playtesting editor that can be opened with F12.","parameters":{"Connect Editor":"true","Auto Open Window":"false","Auto Move Window":"true","Menu Editor Exempt List":"[\"Window_BattleLog\",\"Window_MapName\"]"}},
 {"name":"SRD_CameraCore","status":true,"description":"Allows developers to preform various camera motions including focusing and zooming.","parameters":{"Default Zoom":"1","Zoom Pictures?":"true","Margin Formula":"(Graphics.width / scale) - Graphics.width","Fix Black Lines":"false"}},
 {"name":"HIME_CommonEventButtons","status":true,"description":"v1.1 - Allows you to execute common events with the press of a \r\nbutton on the map.","parameters":{}},
-{"name":"PasswaterQTE","status":true,"description":"Minigame nhấn đúng thời điểm (phiên bản không dùng registerCommand – đã sửa tint)","parameters":{}}
+{"name":"PasswaterQTE","status":true,"description":"Minigame nhấn đúng thời điểm (phiên bản không dùng registerCommand – đã sửa tint)","parameters":{}},
+{"name":"TMN_TicTacToe","status":true,"description":"Tic Tac Toe game for RPG Maker MV","parameters":{"XImage":"tictactoe/X_Image","OImage":"tictactoe/O_Image","HighlightImage":"tictactoe/Highlight_Image","BackgroundImage":"tictactoe/Background_Image","XSound":"X_Sound","OSound":"O_Sound","WinSwitch":"12","LoseSwitch":"13","TieSwitch":"14","BoardOpacity":"0","WinMessage":"You won!","LoseMessage":"You lost!","TieMessage":"It's a tie!"}}
 ];
